@@ -2,8 +2,6 @@ package ExercícioBasico;
 
 import java.util.Scanner;
 
-package ExercícioBasico;
-
 public class Exercicio17{
     public static void main(String[] args){
 
@@ -18,10 +16,10 @@ public class Exercicio17{
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Input first binary number: ");
+        System.out.print("Entre com o primeiro número binário: ");
         bin1 = in.nextLong();
 
-        System.out.print("Input second binary number: ");
+        System.out.print("Entre com o segundo número binário: ");
         bin2 = in.nextLong();
 
         while (bin1 != 0 || bin2 != 0)
@@ -48,6 +46,8 @@ public class Exercicio17{
         /*
          Nunca havia realizado essa expressão, mesmo após validar a resposta retornou erro.
          Erros acontecem, vamos seguir porque um dia dará certo.
+         Um dia após retornar erro, hoje dia 22/04/2024, vi que o erro era apenas eu que
+         estava tentando importar o util.scanner antes do pacote, após inverter, deu certo.
          */
     }
 }
